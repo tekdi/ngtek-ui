@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: #2e5690;
+}
+
+.company h4
+{
+    color: white;
+    font-weight: 800;
+
+}
+
+.logoimage
+{
+    text-align: center;
+}
+
+.logoimage img
+{
+    margin: 0 auto;
+    height: 80px;
+    width: 100px;
+}
