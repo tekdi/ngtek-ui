@@ -1,0 +1,10 @@
+{
+    "name": "ngtek-card",
+    "version": "1.0.0",
+    "descriptions": "Library to add multiple cards on the view with the rotating images",
+    "author": "Amit Udale",
+    "peerDependencies": {
+        "@angular/common": "^7.2.0",
+        "@angular/core": "^7.2.0"
+    }
+}

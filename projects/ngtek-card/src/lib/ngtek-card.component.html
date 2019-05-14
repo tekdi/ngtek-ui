@@ -1,0 +1,19 @@
+<div class="card card-cover">
+
+    <div class="card-header" *ngIf="this.data.header">
+        {{this.data.header}}
+    </div>
+    <div class="card-body" *ngIf="this.data.body">
+        <h4 class="card-title" *ngIf="this.data.body.title">{{this.data.body.title}}</h4>
+        <!-- <div *ngFor="let img of this.data.body.image" appImageRotation [image]="this.data.body.image"> -->
+        <div id="img">
+            <img class="card-img-top" *ngIf="this.data.body.image[0].src" alt="Photo of sunset" appImageRotation [rotationData]="this.data.body">
+            <!-- <div class="mt-2" *ngIf="this.data.body.image[0].imageTitle">{{this.data.body.image[0].imageTitle}}</div> -->
+        </div>
+        <!-- </div> -->
+        <p class="card-text" *ngIf="this.data.body.text">{{this.data.body.text}}</p>
+    </div>
+    <div class="card-footer" *ngIf="this.data.footer">
+        {{this.data.footer}}
+    </div>
+</div>
